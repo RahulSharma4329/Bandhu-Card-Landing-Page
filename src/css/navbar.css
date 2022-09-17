@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+.logo img {
+  width: 11rem;
+  margin: 1rem 2rem;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  margin: 0 3rem;
+}
+.navbarelements {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.navbarelements li {
+  margin: 1rem;
+  font-size: large;
+}
+.widt {
+  width: 30%;
+}
+
+.currencyselector {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 0 2rem;
+}
+.currencyimg {
+  border-radius: 15rem;
+  background-color: #2b2b2b;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.currencyimg img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.currencyselector:hover {
+  cursor: pointer;
+}
+.navitem a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.25s;
+}
+.navitem a:hover {
+  color: rgb(167, 74, 255);
+}
+
+@media only screen and (max-width: 768px) {
+  .center {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .logo img {
+    width: 10rem;
+  }
+  .widt {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+  }
+}

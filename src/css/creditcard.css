@@ -1,0 +1,158 @@
+.cardborder {
+  margin: 5rem;
+  padding: 2rem;
+  border-radius: 25px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  width: 30rem;
+  transform-origin: center;
+}
+.logoandcompany img {
+  width: 10rem;
+}
+.secondrowcard img {
+  width: 3rem;
+  margin: 2rem 2rem;
+}
+.thirdrowcard {
+  color: white;
+  margin: 0.25rem 1rem;
+  font-size: x-large;
+  font-family: "Rubik" sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fourthrowcard {
+  color: white;
+  margin: 0.5rem 1rem;
+  font-size: x-large;
+  font-family: "Forum", sans-serif;
+}
+.row1 {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+.row2 {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.column2 {
+  margin-right: 0.5rem;
+}
+.type1 {
+  background: linear-gradient(
+    150deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.01)
+  );
+  transition: all 1s;
+  z-index: 20;
+}
+.type1:hover {
+  scale: 1.1;
+}
+.type2 {
+  background: linear-gradient(
+    150deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.05)
+  );
+  position: absolute;
+  transform: translate(24rem, 8rem);
+  transition: all 1s;
+  z-index: 10;
+}
+.type2:hover {
+  z-index: 50;
+  scale: 1.05;
+}
+.type3 {
+  background: linear-gradient(
+    150deg,
+    rgba(199, 15, 255, 0.473),
+    rgba(199, 15, 255, 0)
+  );
+  position: absolute;
+  transition: all 1s;
+  z-index: 5;
+  transform: translate(48rem, 16rem);
+}
+.type3:hover {
+  z-index: 50;
+  scale: 1.05;
+}
+.cardsdisplay {
+  display: flex;
+  flex-direction: column;
+}
+.txtplace {
+  margin-right: 10rem;
+  margin-top: 5rem;
+  color: white;
+  width: 20rem;
+  position: absolute;
+  right: 3rem;
+}
+
+.logotxt {
+  color: #c046eb;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+.testi {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 25rem;
+  transform: translateY(5rem);
+  color: white;
+}
+.firstestrow {
+  display: flex;
+  flex-direction: row;
+}
+.icodiv img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: 2px solid #c046eb;
+}
+.ico2 {
+  transform: translateX(-20px);
+}
+.ico3 {
+  transform: translateX(-40px);
+}
+.count {
+  background-color: #c046eb;
+  height: 3rem;
+  width: 5rem;
+  font-size: larger;
+  font-family: "Rubik";
+  border-radius: 3rem;
+  margin: auto;
+  text-align: center;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-60px);
+}
+.secondestrow {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #c046eb;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}

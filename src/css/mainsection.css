@@ -1,0 +1,70 @@
+.bigtitle {
+  margin: 0 5rem;
+}
+.leftcolumn {
+  font-size: 7rem;
+  color: rgb(237, 237, 237);
+  font-family: "Baumans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.secondrow {
+  display: flex;
+  flex-direction: row;
+}
+.word1 {
+  margin-left: 2rem;
+  color: #c046eb;
+}
+.firstrow img {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+}
+.bigtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rightcolumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Forum";
+  color: rgb(237, 237, 237);
+  width: 30%;
+  justify-content: center;
+}
+
+.leftcolumninner {
+  font-size: xx-large;
+  color: #c046eb;
+  font-weight: bold;
+}
+.goicon {
+  border-radius: 50%;
+  background-color: #c046eb;
+  padding: 1rem;
+  margin: 2rem;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goicon img {
+  width: 2rem;
+  filter: invert();
+}
+.leftcolumninner a {
+  color: #c046eb;
+  color: rgb(237, 237, 237);
+  text-decoration: none;
+}
