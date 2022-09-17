@@ -1,0 +1,26 @@
+.cardcon{
+    width:26rem;
+    border-radius: 0.5rem;
+    
+}
+.thirdrow img{
+    width:26rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    bottom: 0;
+    margin-bottom: -5px;
+}
+.customrow{
+    font-size: 4rem;
+    color: rgb(237, 237, 237);
+    font-family: 'Baumans';
+    padding: 0 2.5rem;
+    margin-top: 3rem;
+    line-height: 1;
+}
+.custom2row{
+    color: rgb(237, 237, 237);
+    font-family: 'Forum';
+    padding: 3rem 0;
+    margin: 0 3rem;
+    line-height: 1.5;
+}

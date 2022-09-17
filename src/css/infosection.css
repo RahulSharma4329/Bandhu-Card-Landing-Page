@@ -1,0 +1,50 @@
+.infosectioncontainer{
+    padding: 5rem;
+    margin-top: 3rem;
+}
+.firstcol{
+    display: flex;
+    flex-direction: column;
+    font-size: 6rem;
+    color: rgb(237, 237, 237);
+    font-family: 'Baumans';
+
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+}
+.normalline{
+    margin-right: 1rem;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+.msgpara{
+    padding: 0 3rem;
+}
+.secondcol{
+    color: rgb(214, 214, 214);
+    font-family: 'Forum';
+    text-align: left;
+}
+.inforow{
+    justify-content: space-between;
+}
+.infogetstarted{
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+.cardcon:nth-child(1){
+    position: absolute;
+    transform: translate(15rem,2rem);
+}
+.cardcon:nth-child(2){
+    position: absolute;
+    transform: translate(50rem,-5rem);
+    font-weight: bold;
+}
