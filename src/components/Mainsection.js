@@ -4,7 +4,7 @@ import Creditcard from "./Creditcard";
 
 export default function Mainsection() {
   return (
-    <div>
+    <div className="mainsection">
       <div className="bigtitle">
         <div className="leftcolumn">
           <div className="firstrow">

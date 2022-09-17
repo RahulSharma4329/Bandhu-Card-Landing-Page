@@ -1,0 +1,35 @@
+.statssection{
+    padding: 5rem;
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.statselement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24.5%;
+    color: white;
+}
+.bignum{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:  4rem;
+    font-weight: bolder;
+    font-family: 'Baumans';
+}
+.colorchangestat{
+    color: #c046eb;
+}
+.colorchangestat{
+    margin-left: 0.25rem;
+}
+.shrttext{
+    font-weight: 100;
+    font-family: 'Forum';
+}
