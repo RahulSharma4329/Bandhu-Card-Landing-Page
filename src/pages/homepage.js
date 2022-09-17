@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Mainsection from "../components/Mainsection";
 import Stats from "../components/stats";
 import Infosection from "../components/infosection";
+import Services from "../components/services";
 
 export default function Homepage() {
   return (
@@ -11,6 +12,7 @@ export default function Homepage() {
       <Mainsection />
       <Stats />
       <Infosection />
+      <Services />
     </div>
   );
 }

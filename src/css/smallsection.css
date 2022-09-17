@@ -1,0 +1,33 @@
+.sectioncontainer {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(211, 211, 211);
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.heading {
+  color: black;
+  font-family: "Baumans";
+  font-weight: bold;
+  font-size: 2rem;
+}
+.submsg {
+  font-family: "Forum";
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.getstartedlogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.getstartedlogo .leftcolumninner a {
+  color: black;
+  font-size: x-large;
+}
+.getstartedlogo .goicon {
+  margin: 0.5rem 2rem;
+  padding: 0.5rem;
+}

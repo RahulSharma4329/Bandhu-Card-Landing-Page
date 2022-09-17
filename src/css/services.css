@@ -1,0 +1,66 @@
+.servicescontainer {
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 5rem;
+  height: 70rem;
+}
+.headertext {
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Baumans", sans-serif;
+}
+.headertext {
+  display: flex;
+  flex-direction: column;
+}
+.secondline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.colorchangetext {
+  margin-left: 1rem;
+  color: #c046eb;
+}
+.firstcolumn {
+  width: 49.5%;
+}
+.secondcolumn {
+  width: 49.5%;
+}
+.contentarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+.firstcolumn .type1 {
+  background: linear-gradient(
+    150deg,
+    rgba(234, 234, 234, 0.779),
+    rgba(180, 180, 180, 0.892)
+  );
+  transform: rotateZ(-45deg);
+  z-index: 30;
+}
+.firstcolumn .type2:hover {
+  z-index: 20;
+}
+.firstcolumn .type2 {
+  background: linear-gradient(
+    150deg,
+    rgba(56, 56, 56, 0.779),
+    rgba(85, 85, 85, 0.4)
+  );
+  transform: rotateZ(-45deg) translate(15rem, -15rem);
+}
+.firstcolumn .type3 {
+  transform: rotateZ(-45deg) translate(8rem, -8rem);
+  background: linear-gradient(
+    150deg,
+    rgb(109 0 142 / 93%),
+    rgb(199 15 255 / 37%)
+  );
+  z-index: 24;
+}

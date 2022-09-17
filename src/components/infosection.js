@@ -30,7 +30,7 @@ export default function () {
           </a>
         </div>
       </div>
-      <div className="cardsdisplay">
+      <div className="infocardsdisplay">
         <Infocard
           color="#292929"
           heading="All payment solution"

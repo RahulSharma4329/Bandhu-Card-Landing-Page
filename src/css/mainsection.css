@@ -1,4 +1,4 @@
-.mainsection{
+.mainsection {
   margin-bottom: 15rem;
 }
 .bigtitle {
@@ -61,6 +61,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.goicon a {
+  display: flex;
 }
 .goicon img {
   width: 2rem;

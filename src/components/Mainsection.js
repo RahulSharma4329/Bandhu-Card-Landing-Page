@@ -18,10 +18,10 @@ export default function Mainsection() {
         </div>
         <div className="rightcolumn">
           <div className="leftcolumninner">
-            <a href="">Get started now</a>
+            <a href="/">Get started now</a>
           </div>
           <div className="goicon">
-            <a href="">
+            <a href="/">
               <img src="right-arrow.png" alt="" />
             </a>
           </div>

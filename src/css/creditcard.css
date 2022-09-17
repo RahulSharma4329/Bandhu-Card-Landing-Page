@@ -55,6 +55,7 @@
 }
 .type1:hover {
   scale: 1.1;
+  z-index: 50;
 }
 .type2 {
   background: linear-gradient(
@@ -155,4 +156,28 @@
   background-color: #c046eb;
   border-radius: 50%;
   margin-right: 0.5rem;
+}
+.firstrowcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.typeofcard {
+  font-family: "Baumans";
+  color: silver;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 1rem 2rem;
+}
+.type1 .firstrowcard .typeofcard {
+  color: grey;
+}
+
+.type2 .firstrowcard .typeofcard {
+  color: rgb(255, 208, 98);
+}
+
+.type4 .firstrowcard .typeofcard {
+  color: silver;
 }

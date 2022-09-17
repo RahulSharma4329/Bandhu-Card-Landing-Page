@@ -3,12 +3,21 @@ import "../css/creditcard.css";
 
 export default function Creditcard(type) {
   let clas = "cardborder type" + type["type"].toString();
+  let typetext;
+  if (type.type === 1) {
+    typetext = "Silver";
+  } else if (type.type === 2) {
+    typetext = "Gold";
+  } else if (type.type === 3) {
+    typetext = "Platinum";
+  }
   return (
     <div className={clas}>
       <div className="firstrowcard">
         <div className="logoandcompany">
           <img src="logo.svg" alt="" />
         </div>
+        <div className="typeofcard">{typetext}</div>
       </div>
       <div className="secondrowcard">
         <img src="sim.png" alt="" />
