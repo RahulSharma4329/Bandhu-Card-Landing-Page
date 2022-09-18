@@ -1,0 +1,28 @@
+.collectcontainer {
+  background-color: #c046eb;
+  margin: 5rem;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+}
+.leftcollect {
+  display: flex;
+  flex-direction: row;
+  font-size: 4rem;
+  font-family: "Baumans";
+  color: white;
+}
+.ele {
+  margin: 0 0.5rem;
+}
+.rightcollect img {
+  width: 5rem;
+  filter: invert();
+  margin: 0 2rem;
+}
+.secondwor {
+  color: #2e003f;
+}

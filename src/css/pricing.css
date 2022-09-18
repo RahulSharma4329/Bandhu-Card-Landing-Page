@@ -1,0 +1,116 @@
+.pricingcontainer {
+  margin: 5rem;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  font-family: "Baumans";
+  font-size: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(234, 234, 234);
+  margin: 1rem;
+}
+.secondword {
+  margin: 0 1rem;
+  color: #c046eb;
+}
+.subheader {
+  text-align: center;
+  color: grey;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.priceboxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+  margin-top: 7rem;
+}
+.pricebox {
+  background-color: rgb(224, 224, 224);
+  padding: 2rem;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pricebox:nth-child(2) {
+  background-color: #292929;
+}
+.pricebox:nth-child(2) .priceamt {
+  color: #d35bff;
+}
+.pricebox:nth-child(2) .pricename {
+  color: rgb(234, 234, 234);
+}
+.pricebox:nth-child(2) .learnmore a {
+  color: rgb(234, 234, 234);
+}
+.pricebox:nth-child(2) .learnmore img {
+  filter: invert();
+}
+.pricename {
+  font-family: "Baumans";
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+}
+.priceamt {
+  font-family: "Baumans";
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
+  margin: 1rem 0;
+}
+.learnmore {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-family: "Forum";
+  margin: 1rem 0;
+}
+.learnmore a {
+  color: black;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+.learnmore img {
+  width: 1rem;
+}
+.differencebox {
+  background-color: #292929;
+  margin: 5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+.differencebox .cardborder {
+  transform: skew(342deg, 13deg);
+  scale: 0.7;
+  margin: 2rem;
+}
+.firstcolu {
+  width: 49.5%;
+}
+.secondcolu {
+  width: 49.5%;
+}
+.secondcolu .heading {
+  color: rgb(234, 234, 234);
+  font-size: 4rem;
+}
+.secondcolu .getstartedlogo .leftcolumninner a {
+  color: rgb(234, 234, 234);
+}

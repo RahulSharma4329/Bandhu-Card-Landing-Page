@@ -4,6 +4,9 @@ import Mainsection from "../components/Mainsection";
 import Stats from "../components/stats";
 import Infosection from "../components/infosection";
 import Services from "../components/services";
+import Pricing from "../components/pricing";
+import Collect from "../components/collect";
+import Footer from "../components/footer";
 
 export default function Homepage() {
   return (
@@ -13,6 +16,9 @@ export default function Homepage() {
       <Stats />
       <Infosection />
       <Services />
+      <Pricing />
+      <Collect />
+      <Footer />
     </div>
   );
 }
