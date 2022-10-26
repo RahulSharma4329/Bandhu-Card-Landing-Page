@@ -2,7 +2,7 @@ import React from "react";
 import "../css/infosection.css";
 import Infocard from "./infocard";
 
-export default function () {
+export default function Infosection() {
   return (
     <div className="infosectioncontainer">
       <div className="firstrow inforow">
@@ -22,10 +22,10 @@ export default function () {
       </div>
       <div className="secondrow infogetstarted">
         <div className="leftcolumninner">
-          <a href="">Get started now</a>
+          <a href="/">Get started now</a>
         </div>
         <div className="goicon">
-          <a href="">
+          <a href="/">
             <img src="right-arrow.png" alt="" />
           </a>
         </div>
