@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Credit-card-company-landing-page-design/static/css/main.36a1a45f.css",
+    "main.js": "/Credit-card-company-landing-page-design/static/js/main.fefc4c27.js",
+    "index.html": "/Credit-card-company-landing-page-design/index.html",
+    "main.36a1a45f.css.map": "/Credit-card-company-landing-page-design/static/css/main.36a1a45f.css.map",
+    "main.fefc4c27.js.map": "/Credit-card-company-landing-page-design/static/js/main.fefc4c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36a1a45f.css",
+    "static/js/main.fefc4c27.js"
+  ]
+}
