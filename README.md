@@ -1,6 +1,7 @@
 ## Bandhucard
 We aim to build a smart, simple, and transparent financial platform to redesign the financial experience for the Youngsters. 
 
+![](public/readme.jpg)
 
 
 
