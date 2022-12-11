@@ -1,11 +1,11 @@
 .cardborder {
-  margin: 5rem;
-  padding: 2rem;
+  margin: 2rem;
+  padding: 1.5rem;
   border-radius: 25px;
   backdrop-filter: blur(30px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-  width: 30rem;
+  width: 28rem;
   transform-origin: center;
 }
 .logoandcompany img {
@@ -110,6 +110,7 @@
   flex-direction: column;
   position: absolute;
   left: 25rem;
+  top: 55.5rem;
   transform: translateY(5rem);
   color: white;
 }
@@ -180,4 +181,10 @@
 
 .type4 .firstrowcard .typeofcard {
   color: silver;
+}
+
+@media only screen and (max-width:1350px) {
+  .testi{
+    top: 71.5rem;
+  }
 }
