@@ -14,22 +14,22 @@ export default function Navbar() {
         <div className="center widt">
           <ul className="navbarelements">
             <li className="navitem">
-              <a href="/#features"> Features</a>
+              <a href="/#features" className="hover-underline-animation"> Features</a>
             </li>
             <li className="navitem">
-              <a href="/#benefits"> Benefits</a>
+              <a href="/#benefits" className="hover-underline-animation"> Benefits</a>
             </li>
             <li className="navitem">
-              <a href="/#pricing">Pricing</a>{" "}
+              <a href="/#pricing" className="hover-underline-animation">Pricing</a>{" "}
             </li>
             <li className="navitem">
-              <a href="/#contactus">Contact</a>
+              <a href="/#contactus" className="hover-underline-animation">Contact</a>
             </li>
           </ul>
         </div>
         <div className="right widt">
           <div className="currencyselector" onClick={dropdowncheck}>
-            <div className="currencyimg">
+            <div className="currencyimg glow">
               <img src="flagcurrency.png" alt="IND" />
               IND
             </div>

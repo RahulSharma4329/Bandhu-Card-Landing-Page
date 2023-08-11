@@ -23,7 +23,11 @@
   width: 30%;
 }
 .msgpara {
-  padding: 0 3rem;
+  padding: 3rem 2rem;
+  margin-left: 3rem;
+  font-size: 20px;
+  border: 2px solid purple;
+  border-radius: 20px;
 }
 .secondcol {
   color: rgb(214, 214, 214);

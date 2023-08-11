@@ -21,7 +21,7 @@ export default function Mainsection() {
             <a href="/">Get started now</a>
           </div>
           <div className="goicon">
-            <a href="/">
+            <a href="/" id="arrowimg">
               <img src="right-arrow.png" alt="" />
             </a>
           </div>
