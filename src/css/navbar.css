@@ -64,6 +64,35 @@
 .navitem a:hover {
   color: rgb(167, 74, 255);
 }
+.hover-underline-animation {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -8px;
+  left: 0;
+  background-color: rgb(167, 74, 255);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation::after {
+  transform: scaleX(0);
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
+.glow {
+  border: 2px solid white;
+}
+.glow:hover {
+  box-shadow: 0 5px 15px rgba(181, 78, 255, 0.938);
+}
 
 @media only screen and (max-width: 768px) {
   .center {
